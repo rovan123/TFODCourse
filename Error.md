@@ -74,6 +74,22 @@ zsh:1: command not found: protoc <br/>
 <b>Solution:Find the path of the protoc, for me it is : /Users/{username}/Desktop/ObjectDetection/TFODCourse/Tensorflow/protoc/bin/protoc. And replace the "protoc" with this path</b> 
 <pre> /Users/{username}/Desktop/ObjectDetection/TFODCourse/Tensorflow/protoc/bin/protoc object_detection/protos/*.proto --python_out=.</pre> 
 
+
+<b>Error:</b>Traceback (most recent call last):
+  File "Tensorflow/models/research/object_detection/builders/model_builder_tf2_test.py", line 25, in <module>
+    from object_detection.builders import model_builder
+  File "/Users/rovansuresh/Desktop/TensorFlow-Object-Detection/tfod/lib/python3.8/site-packages/object_detection/builders/model_builder.py", line 22, in <module>
+    from object_detection.builders import box_predictor_builder
+  File "/Users/rovansuresh/Desktop/TensorFlow-Object-Detection/tfod/lib/python3.8/site-packages/object_detection/builders/box_predictor_builder.py", line 20, in <module>
+    from object_detection.predictors import convolutional_box_predictor
+  File "/Users/rovansuresh/Desktop/TensorFlow-Object-Detection/tfod/lib/python3.8/site-packages/object_detection/predictors/convolutional_box_predictor.py", line 22, in <module>
+    slim = tf.contrib.slim
+AttributeError: module 'tensorflow' has no attribute 'contrib'<br/>
+  
+<b>Solution: May not be the best Way but it solved for me. Just delete all the files and restart the process , (optional)restart the computer</b> 
+<pre></pre>
+
+
 Template
 <b>Error:</b> <br/>
 <b>Solution:</b> 
