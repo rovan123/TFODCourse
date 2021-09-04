@@ -59,6 +59,21 @@ fatal: index-pack failed
 <pre>git clone http://github.com/large-repository --depth 1</pre>
 
 
+<b>Error:</b> 
+When installing protobuf using brew. "!brew install protobuf"
+
+Error: protobuf: Calling `cellar` in a bottle block is disabled! Use `brew style --fix` on the formula to update the style or use `sha256` with a `cellar:` argument instead.
+Please report this issue to the homebrew/core tap (not Homebrew/brew or Homebrew/core), or even better, submit a PR to fix it:
+  /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/protobuf.rb:14 <br/>
+<b>Solution: Go to https://github.com/protocolbuffers/protobuf/releases/ and scroll to assets and download the protobuf for your os.</b> 
+
+<b>Error:</b> 
+When running "protoc object_detection/protos/*.proto --python_out=."
+
+zsh:1: command not found: protoc <br/>
+<b>Solution:Find the path of the protoc, for me it is : /Users/{username}/Desktop/ObjectDetection/TFODCourse/Tensorflow/protoc/bin/protoc. And replace the "protoc" with this path</b> 
+<pre> /Users/{username}/Desktop/ObjectDetection/TFODCourse/Tensorflow/protoc/bin/protoc object_detection/protos/*.proto --python_out=.</pre> 
+
 Template
 <b>Error:</b> <br/>
 <b>Solution:</b> 
