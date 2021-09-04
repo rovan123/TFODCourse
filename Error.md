@@ -47,8 +47,20 @@ KeyError: 'ThumbsDown' # YOUR LABEL HERE
 <b>Solution:</b> This is because the available VRAM on your machine is completely consumed and there is no more memory available to train. Quit all of your Python programs and stop your Jupyter Notebook server to free up the VRAM and run the command again. 
 
 
+<b>Error:</b> Cloning into 'large-repository'...
+remote: Counting objects: 20248, done.
+remote: Compressing objects: 100% (10204/10204), done.
+error: RPC failed; curl 18 transfer closed with outstanding read data remaining 
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+<br/>
+<b>Solution: Add a "-- depth" after the github link</b> 
+<pre>git clone http://github.com/large-repository --depth 1</pre>
+
 
 Template
 <b>Error:</b> <br/>
 <b>Solution:</b> 
 <pre></pre>
+
