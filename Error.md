@@ -12,9 +12,13 @@ Solution: pip install typeguard  # note the name of the module will not always e
 <pre>!pip install matplotlib==3.2</pre>
 
 <b>Error:</b> ValueError: numpy.ndarray size changed, may indicate binary incompatibility. Expected 88 from C header, got 80 from PyObject<br/>
-<b>Solution:</b>  Reinstall pycocotools
+<b>Solution:</b>  Reinstall pycocotools or Reinstall numpy
 <pre>Pip uninstall pycocotools -y
-Pip install pycocotools</pre>
+Pip install pycocotools
+or 
+Pip uninstall numpy -y
+Pip install numpy
+</pre>
 
 <b>Error:</b> ValueError: 'images' must have either 3 or 4 dimensions.<br/>
 <b>Solution:</b> Restart your jupyter notebook as the Webcam is unavailable. If using images, this normally means your image name and path is incorrect.
