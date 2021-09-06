@@ -9,7 +9,7 @@ python --version
 </pre> 
 <br/>
 <b>Step 3.</b> install conda
-<b> Go to <a> https://www.anaconda.com/products/individual <a> <b>
+<b> Go to https://www.anaconda.com/products/individual<b>
   
 ## Steps
 <br />
