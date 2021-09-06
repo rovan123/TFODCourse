@@ -47,7 +47,7 @@ python -m ipykernel install --user --name=tfod
 If not, resolve installation errors by referring to the <a href="https://github.com/rovan123/TFODCourse/blob/main/README.md">Error Guide.md</a> in this folder.
 <br /> <br/>
 <b>Step 9.</b> Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on the machine you're able to display live loss metrics. 
-href="https://drive.google.com/file/d/1_IyCcHNDEEmMngkBW16yMIg7iAinIi7O/view?usp=sharing">Picture</a>
+<a href="https://drive.google.com/file/d/1_IyCcHNDEEmMngkBW16yMIg7iAinIi7O/view?usp=sharing">Picture</a>
 <br />
 <b>Step 10.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 <pre> cd Tensorlfow/workspace/models/my_ssd_mobnet/eval</pre> 
