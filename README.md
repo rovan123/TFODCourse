@@ -2,7 +2,7 @@
 <p>This set of Notebooks provides a complete set of code to be able to train and leverage your own custom object detection model using the Tensorflow Object Detection API. 
 #<img src="">
 
-## Initialization
+# Initialization
 <b>Step 1.</b> Check your python version and make sure it is the latest 
 <pre>
 python --version
